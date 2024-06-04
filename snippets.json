@@ -1,0 +1,27 @@
+{
+	"ifdef(js)": {
+		"prefix": "ifdef",
+		"body": [
+			"// #ifdef $1",
+			"$2",
+			"// #end"
+		]
+	},
+	"ifdef(css)": {
+		"prefix": "ifdef",
+		"body": [
+			"/* #ifdef $1 */",
+			"$2",
+			"/* #end */"
+		]
+	},
+	"ifdef(tsx)": {
+		"prefix": "ifdef",
+		"body": [
+			"{/* #ifdef $1 */}",
+			"$2",
+			"{/* #end */}"
+		]
+	}
+}
+

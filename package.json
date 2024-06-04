@@ -44,7 +44,35 @@
 				"group": "1_ifdef",
 				"when": "editorHasSelection"
 			}]
-		}
+		},
+		"snippets": [{
+			"language": "html",
+			"path": "snippets.json"
+		},{
+			"language": "javascript",
+			"path": "snippets.json"
+		},{
+			"language": "typescript",
+			"path": "snippets.json"
+		},{
+			"language": "javascriptreact",
+			"path": "snippets.json"
+		},{
+			"language": "typescriptreact",
+			"path": "snippets.json"
+		},{
+			"language": "css",
+			"path": "snippets.json"
+		},{
+			"language": "less",
+			"path": "snippets.json"
+		},{
+			"language": "scss",
+			"path": "snippets.json"
+		},{
+			"language": "sass",
+			"path": "snippets.json"
+		}]
 	},
 	"scripts": {
 		"lint": "eslint .",
