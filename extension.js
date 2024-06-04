@@ -16,9 +16,9 @@ function activate(context) {
 
 function create(code) {
   getSelectedText().then((content) => {
-	if( !content ){
-		return;
-	}
+    if (!content) {
+      return;
+    }
     const { activeTextEditor } = window;
 
     activeTextEditor?.edit((editBuilder) => {
